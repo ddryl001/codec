@@ -1,5 +1,5 @@
 # codec
-Currently a repository of language data from far-right extremist and conspiracy communities. All data is freely available to be used by researchers.
+Currently a repository of language data from far-right extremist and conspiracy communities. All data is freely available for use by researchers.
 
 The most recent data are formatted with metadata in psuedo xml tags (<m> </m>). 
 These tags should be filtered by the default settings in AntConc. If not, they can be changed in the "corpus manager" window.
