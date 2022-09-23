@@ -36,8 +36,6 @@ while True:
     while True:
         writer = csv.writer(file, delimiter="\t")
         posts = soup.find_all(class_="postMessage")
-        for post in posts:
-            posted = post.get_text(separator=" <br> ").strip()
         subject = soup.find(class_="subject")
         idnumbers = soup.find_all("span", class_="hand")
         users = soup.find_all("span", class_="name")
@@ -46,12 +44,13 @@ while True:
         sources = soup.find_all('a', {'title':'Link to this post'}, href=True)
         urlstr = str(urls[0])
         try:
-            writer.writerow(["</m " + subject.text + " >"])
+            writer.writerow(["<m> " + subject.text + " </m>"])
         except AttributeError:
-            writer.writerow(["</m NO SUBJECT >"])
-        for posted, idnumber, user, time, replied, source in zip(posts, idnumbers, users, times, replied, sources):
-            print(posted.text + "\t" + "</m " + idnumber.text + " >" + " \t " + "</m " + user.text + " >" + " \t " + "</m " + time.text + " >" +  " \t " + "</m " + source['href'] + " >" + "\t" + "</m " + str(urls[0]) + " >" + "\t" + "</m " + replied.text + " >")
-            writer.writerow([posted.text, "</m ID# " + idnumber.text + " >", "</m USERNAME " + user.text + " >", "</m TIME " + time.text + " >", "</m POST# " + source['href'] + " >", "</m THREAD " + str(urls[0]) + " >", "</m REPLYING TO " + replied.text + " >"])
+            writer.writerow(["<m> NO SUBJECT </m>"])
+        for post, idnumber, user, time, replied, source in zip(posts, idnumbers, users, times, replied, sources):
+            post = post.get_text(separator=" <break> ")
+            print(post + "\t" + "</m " + idnumber.text + " >" + " \t " + "</m " + user.text + " >" + " \t " + "</m " + time.text + " >" +  " \t " + "</m " + source['href'] + " >" + "\t" + "</m " + str(urls[0]) + " >" + "\t" + "</m " + replied.text + " >")
+            writer.writerow([post, "<m> ID# " + idnumber.text + " </m>", "<m> USERNAME " + user.text + " </m>", "<m> TIME " + time.text + " </m>", "<m> POST# " + source['href'] + " </m>", "<m> THREAD " + str(urls[0]) + " </m>", "<m> REPLYING TO " + replied.text + " </m>"])
         file.close()
         newname2 = 'pol'+dt+'.txt'
         os.rename('4chan-test.txt', newname2)
