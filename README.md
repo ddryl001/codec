@@ -9,7 +9,9 @@ All values are separated with tabs.
 To cite: 
 
 (APA)
+  
 Drylie, D., & McCullough, R. (2022). Corpus of Digital Extremism and Conspiracies. CODEC. Retrieved from https://github.com/ddryl001/codec
 
 (MLA)
+  
 Drylie, Daniel, and Rachel McCullough. “Corpus of Digital Extremism and Conspiracies.” CODEC, 2022, https://github.com/ddryl001/codec. 
