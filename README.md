@@ -3,9 +3,17 @@ Currently a repository of language data from far-right extremist and conspiracy 
 
 # Latest Torrents
 
-[4Chan Data Magnet Link (Complete As Of 9/29/2022)](https://tinyurl.com/mrxe7cpv)
+[4Chan Data Magnet Link (Complete As Of 9/29/2022)](https://tinyurl.com/mrxe7cpv)   
+   - /pol/ (31,822 threads)  
+   - /r9k/ (4,551 threads)  
 
-[8Kun Data Magnet Link (Complete As Of 9/29/2022)](https://tinyurl.com/2v5z4s4r)
+[8Kun Data Magnet Link (Complete As Of 9/29/2022)](https://tinyurl.com/2v5z4s4r)   
+   - /qresearch/ (29,641 threads)  
+   - /pnd/ (5,367 threads)  
+   - /qrb/ (150 threads)  
+   - /midnightriders/ (198 threads)  
+   - /freedomzine/ (109 threads)  
+   - /u/ (205 threads)  
 
 To download torrents, use an application like [qBittorrent](https://www.qbittorrent.org/download.php). uTorrent tends to stall while downloading these torrents. 
 
