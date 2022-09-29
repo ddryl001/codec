@@ -4,7 +4,7 @@ Currently a repository of language data from far-right extremist and conspiracy 
 To download torrents, use an application like [qBittorrent](https://www.qbittorrent.org/download.php)
 
 The most recent data are formatted with metadata in psuedo xml tags ("< m > </ m >"). 
-These tags should be filtered by the default settings in AntConc. If not, they can be changed in the "corpus manager" window.
+These tags should be filtered by the default settings in [AntConc](https://www.laurenceanthony.net/software/antconc/). If not, they can be changed in the "corpus manager" window.
 Because of difficulties with BeautifulSoup, line breaks within posts are marked with "< break >".
 All values are separated with tabs.
 
