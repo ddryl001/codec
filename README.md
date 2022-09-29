@@ -1,14 +1,22 @@
-# codec
+# CODEC: Corpus of Digital Extremism and Conspiracies
 Currently a repository of language data from far-right extremist and conspiracy communities. All data is freely available for use by researchers.
 
-To download torrents, use an application like [qBittorrent](https://www.qbittorrent.org/download.php)
+# Latest Torrents
+
+[4Chan Data Magnet Link (Complete As Of 9/29/2022)](https://tinyurl.com/mrxe7cpv)
+
+[8Kun Data Magnet Link (Complete As Of 9/29/2022)](https://tinyurl.com/2v5z4s4r)
+
+To download torrents, use an application like [qBittorrent](https://www.qbittorrent.org/download.php) 
+
+# Notes on data format
 
 The most recent data are formatted with metadata in psuedo xml tags ("< m > </ m >"). 
 These tags should be filtered by the default settings in [AntConc](https://www.laurenceanthony.net/software/antconc/). If not, they can be changed in the "corpus manager" window.
 Because of difficulties with BeautifulSoup, line breaks within posts are marked with "< break >".
 All values are separated with tabs.
 
-To cite: 
+# To cite: 
 
 (APA)
   
