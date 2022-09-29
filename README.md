@@ -7,7 +7,7 @@ Currently a repository of language data from far-right extremist and conspiracy 
 
 [8Kun Data Magnet Link (Complete As Of 9/29/2022)](https://tinyurl.com/2v5z4s4r)
 
-To download torrents, use an application like [qBittorrent](https://www.qbittorrent.org/download.php) 
+To download torrents, use an application like [qBittorrent](https://www.qbittorrent.org/download.php). uTorrent tends to stall while downloading these torrents. 
 
 # Notes on data format
 
