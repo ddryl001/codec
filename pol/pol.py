@@ -50,28 +50,42 @@ while True:
         for div in soup.find_all('div', {'class':'postContainer'}):
             posts = div.find(class_="postMessage")
             post = posts.get_text(separator=" <break> ")
-            idnumber = div.find(class_='hand', text=True)
-            user = div.find(class_='name', text=True)
-            time = div.find(class_='dateTime', text=True)
+            try:
+                idnumber = div.find(class_='hand', text=True).text
+            except AttributeError:
+                idnumber = " NONE "
+            try:
+                user = div.find(class_='name', text=True).text
+            except AttributeError:
+                try:
+                    user = div.find(class_='postertrip', text=True).text
+                except AttributeError:
+                    user = " NONE "
+            try:
+                time = div.find(class_='dateTime', text=True).text
+            except AttributeError:
+                time = " NONE "
             replied = div.find("a", {'class':'quotelink'}, href=True)
             source = div.find('a', {'title':'Link to this post'}, href=True)
             flags = div.find('span', {'class':'posteruid'})
             urlstr = str(urls[0])
-            
             try:
                 try:
                     flag = flags.find_next_sibling()
                 except AttributeError:
                     break
-                print(post + "\t" + "</m " + idnumber.text + " >" + " \t " + "</m " + user.text + " >" + " \t " + "</m " + time.text + " >" +  " \t " + "</m " + source['href'] + " >" + "\t" + "</m " + str(urls[0]) + " >" + "\t" + "</m " + replied['href'] + " >" + "\t" + "</m " + flag['title'] + " >")
-                writer.writerow([post, "<m> ID# " + idnumber.text + " </m>", "<m> USERNAME " + user.text + " </m>", "<m> TIME " + time.text + " </m>", "<m> POST# " + source['href'] + " </m>", "<m> THREAD " + str(urls[0]) + " </m>", "<m> REPLYING TO " + replied['href'] + " </m>", "<m> FLAG " + flag['title'] + " </m>"])
+                print(post + "\t" + "</m " + idnumber + " >" + " \t " + "</m " + user + " >" + " \t " + "</m " + time + " >" +  " \t " + "</m " + source['href'] + " >" + "\t" + "</m " + str(urls[0]) + " >" + "\t" + "</m " + replied['href'] + " >" + "\t" + "</m " + flag['title'] + " >")
+                writer.writerow([post, "<m> ID# " + idnumber + " </m>", "<m> USERNAME " + user + " </m>", "<m> TIME " + time + " </m>", "<m> POST# " + source['href'] + " </m>", "<m> THREAD " + str(urls[0]) + " </m>", "<m> REPLYING TO " + replied['href'] + " </m>", "<m> FLAG " + flag['title'] + " </m>"])
             except TypeError or AttributeError:
                 try:
-                    flag = flags.find_next_sibling()
+                    try:
+                        flag = flags.find_next_sibling()
+                    except AttributeError:
+                        break
+                    print(post + "\t" + "</m " + idnumber + " >" + " \t " + "</m " + user + " >" + " \t " + "</m " + time + " >" +  " \t " + "</m " + source['href'] + " >" + "\t" + "</m " + str(urls[0]) + " >" + "\t" + "</m NO REPLY >" + "\t" + "</m " + flag['title'] + " >")
+                    writer.writerow([post, "<m> ID# " + idnumber + " </m>", "<m> USERNAME " + user + " </m>", "<m> TIME " + time + " </m>", "<m> POST# " + source['href'] + " </m>", "<m> THREAD " + str(urls[0]) + " </m>", "<m> NO REPLY </m>", "<m> FLAG " + flag['title'] + " </m>"])
                 except AttributeError:
-                    break
-                print(post + "\t" + "</m " + idnumber.text + " >" + " \t " + "</m " + user.text + " >" + " \t " + "</m " + time.text + " >" +  " \t " + "</m " + source['href'] + " >" + "\t" + "</m " + str(urls[0]) + " >" + "\t" + "</m NO REPLY >" + "\t" + "</m " + flag['title'] + " >")
-                writer.writerow([post, "<m> ID# " + idnumber.text + " </m>", "<m> USERNAME " + user.text + " </m>", "<m> TIME " + time.text + " </m>", "<m> POST# " + source['href'] + " </m>", "<m> THREAD " + str(urls[0]) + " </m>", "<m> NO REPLY </m>", "<m> FLAG " + flag['title'] + " </m>"])                         
+                    break                         
         file.close()
         newname2 = 'pol'+dt+'.txt'
         os.rename('4chan-test.txt', newname2)
