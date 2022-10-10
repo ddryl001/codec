@@ -17,14 +17,4 @@ for source in sources:
     writer.writerow(["https://boards.4chan.org" + source['href']])
 file.close()
 
-with open('pol-index.csv','r') as source:
-    lines_src = source.readlines()
-with open('pol-scraped.csv','r') as f:
-    lines_f = f.readlines()
-to_scrape = open("pol-queue.csv","w")
-for data in lines_src:
-    if data not in lines_f:
-        print(data)
-        to_scrape.write(data)
-to_scrape.close()
-exec(open("/home/daniel/shared/pol/pol.py").read())
+exec(open("pol.py").read())
