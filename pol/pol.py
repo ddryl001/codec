@@ -24,6 +24,7 @@ data_into_list = data.split("\n")
 urls = collections.deque(data_into_list)
 my_file.close()
 start_time = str(datetime.datetime.now().strftime("%H:%M"))
+loop = 0
 while True:
     dt = str(datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%f"))
     url = urls[0]
@@ -40,13 +41,12 @@ while True:
     
     while True:
         writer = csv.writer(file, delimiter="\t")
-
-        subject = soup.find(class_="subject")
+        writer.writerow(["<h> TEXT </h>", "<h> ID </h>", "<h> USERNAME </h>", "<h> TIME </h>", "<h> POSTNUM </h>", "<h> THREAD </h>", "<h> REPLY </h>", "<h> FLAG </h>", "<h> SUBJECT </h>"])
         try:
-            writer.writerow(["<m> " + subject.text + " </m>"])
+            subjects = soup.find(class_="subject")
+            subject = subjects.text
         except AttributeError:
-            writer.writerow(["<m> NO SUBJECT </m>"])
-
+            subject = " NO SUBJECT "
         for div in soup.find_all('div', {'class':'postContainer'}):
             posts = div.find(class_="postMessage")
             post = posts.get_text(separator=" <break> ")
@@ -69,21 +69,22 @@ while True:
             source = div.find('a', {'title':'Link to this post'}, href=True)
             flags = div.find('span', {'class':'posteruid'})
             urlstr = str(urls[0])
+            
             try:
                 try:
                     flag = flags.find_next_sibling()
                 except AttributeError:
                     break
-                print(post + "\t" + "</m " + idnumber + " >" + " \t " + "</m " + user + " >" + " \t " + "</m " + time + " >" +  " \t " + "</m " + source['href'] + " >" + "\t" + "</m " + str(urls[0]) + " >" + "\t" + "</m " + replied['href'] + " >" + "\t" + "</m " + flag['title'] + " >")
-                writer.writerow([post, "<m> ID# " + idnumber + " </m>", "<m> USERNAME " + user + " </m>", "<m> TIME " + time + " </m>", "<m> POST# " + source['href'] + " </m>", "<m> THREAD " + str(urls[0]) + " </m>", "<m> REPLYING TO " + replied['href'] + " </m>", "<m> FLAG " + flag['title'] + " </m>"])
+                print(post + "\t" + idnumber + " \t " + user + " \t " + time +  " \t " + source['href'] + "\t" + str(urls[0]) + " \t " + replied['href'] + " \t " + flag['title'] + " \t " + subject)
+                writer.writerow([post, "<m> ID# " + idnumber + " </m>", "<m> USERNAME " + user + " </m>", "<m> TIME " + time + " </m>", "<m> POST# " + source['href'] + " </m>", "<m> THREAD " + str(urls[0]) + " </m>", "<m> REPLYING TO " + replied['href'] + " </m>", "<m> FLAG " + flag['title'] + " </m>", "<m> " + subject + " </m>"])
             except TypeError or AttributeError:
                 try:
                     try:
                         flag = flags.find_next_sibling()
                     except AttributeError:
                         break
-                    print(post + "\t" + "</m " + idnumber + " >" + " \t " + "</m " + user + " >" + " \t " + "</m " + time + " >" +  " \t " + "</m " + source['href'] + " >" + "\t" + "</m " + str(urls[0]) + " >" + "\t" + "</m NO REPLY >" + "\t" + "</m " + flag['title'] + " >")
-                    writer.writerow([post, "<m> ID# " + idnumber + " </m>", "<m> USERNAME " + user + " </m>", "<m> TIME " + time + " </m>", "<m> POST# " + source['href'] + " </m>", "<m> THREAD " + str(urls[0]) + " </m>", "<m> NO REPLY </m>", "<m> FLAG " + flag['title'] + " </m>"])
+                    print(post + "\t" + idnumber + " \t " + user + " \t " + time +  " \t " + source['href'] + "\t" + str(urls[0]) + "\t" + "</m NO REPLY >" + "\t" + flag['title'] + " \t " + subject)
+                    writer.writerow([post, "<m> ID# " + idnumber + " </m>", "<m> USERNAME " + user + " </m>", "<m> TIME " + time + " </m>", "<m> POST# " + source['href'] + " </m>", "<m> THREAD " + str(urls[0]) + " </m>", "<m> NO REPLY </m>", "<m> FLAG " + flag['title'] + " </m>", "<m> " + subject + " </m>"])
                 except AttributeError:
                     break                         
         file.close()
@@ -95,3 +96,6 @@ while True:
     swriter.writerow([str(urls[0])])
     scraped.close()
     urls.popleft()
+    looped = int(loop) + 1
+    print("NUMBER OF THREADS SCRAPED: " + str(looped))
+    loop = int(looped)
