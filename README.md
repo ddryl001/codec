@@ -3,13 +3,10 @@ Currently a repository of language data from far-right extremist and conspiracy 
 
 ## Latest Torrents
 
-[4Chan Data Magnet Link (Complete As Of 9/29/2022)](https://tinyurl.com/mrxe7cpv)  
-   - /pol/ (31,822 threads)  
-   - /r9k/ (4,551 threads)   
-   
-[4Chan Data Magnet Link (9/29/2022-10/02/2022)](https://tinyurl.com/2jnraxxu)  
-   - /pol/ (10,227 Threads)  
-   - /r9k/ (2,443)   
+[4Chan Data Magnet Link (Complete As Of 10/18/2022)](https://tinyurl.com/bp64avsz)  
+   - /pol/ (92,563 threads)  
+   - /r9k/ (20,434 threads) 
+   - /pol/ from 4plebs archive (75,596 threads)
    
 [8Kun Data Magnet Link (Complete As Of 9/29/2022)](https://tinyurl.com/2v5z4s4r)   
    - /qresearch/ (29,641 threads)  
