@@ -49,6 +49,7 @@ while True:
             f.close()
 
             files.popleft()
+            
       except FileNotFoundError:
             print("Complete")
             break
