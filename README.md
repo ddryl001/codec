@@ -13,11 +13,11 @@ Currently a repository of language data from far-right extremist and conspiracy 
    - /r9k/ (20,434 threads) 
    - /pol/ from 4plebs archive (75,596 threads)
    
-[8Kun Data Magnet Link (Complete As Of 9/29/2022)](https://tinyurl.com/2v5z4s4r)   
-   - /qresearch/ (29,641 threads)  
-   - /pnd/ (5,367 threads)  
+[8Kun Data Magnet Link (Complete As Of 10/31/2022)](https://tinyurl.com/y3wy4sds)   
+   - /qresearch/ (29,848 threads)  
+   - /pnd/ (5,513 threads)  
    - /qrb/ (150 threads)  
-   - /midnightriders/ (198 threads)  
+   - /midnightriders/ (601 threads)  
    - /freedomzine/ (109 threads)  
    - /u/ (205 threads)  
 
