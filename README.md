@@ -25,7 +25,7 @@ Currently a repository of language data from far-right extremist and conspiracy 
    - /freedomzine/ (109 threads)  
    - /u/ (205 threads)  
 
-To download torrents, use an application like [qBittorrent](https://www.qbittorrent.org/download.php). uTorrent tends to stall while downloading these torrents. 
+To download torrents, use an application like [qBittorrent](https://www.qbittorrent.org/download.php). 
 
 ## Notes on data format
 
