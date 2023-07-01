@@ -7,6 +7,7 @@ Currently a repository of language data from far-right extremist and conspiracy 
 4chan
    - /pol/ (79,573 threads)  
    - /r9k/ (23,910 threads)
+     
 8kun
    - /qresearch/ (157 threads)
    - /pnd/ (100 threads)
@@ -16,6 +17,7 @@ Currently a repository of language data from far-right extremist and conspiracy 
 4chan
    - /pol/ (596,309 threads)  
    - /r9k/ (206,005 threads)
+     
 8kun
    - /qresearch/ (33,886 threads)
    - /pnd/ (6,759 threads)
