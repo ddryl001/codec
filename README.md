@@ -3,12 +3,23 @@ Currently a repository of language data from far-right extremist and conspiracy 
 
 ## Latest Torrents
 
-[CODEC Data Magnet Link (04/2023)](https://tinyurl.com/2ekvukeb)  
-   - /pol/ (72,928 threads)  
-   - /r9k/ (25,434 threads)
-   - /qresearch/ (193 threads)
-   - /pnd/ (162 threads)
-   - /midnightriders/ (10 threads)
+[CODEC Data Magnet Link (06/2023)](https://tinyurl.com/3uvef95v)  
+4chan
+   - /pol/ (79,573 threads)  
+   - /r9k/ (23,910 threads)
+8kun
+   - /qresearch/ (157 threads)
+   - /pnd/ (100 threads)
+   - /midnightriders/ (14 threads)
+
+[CODEC Data Magnet Link (09/2022-05/2023)](https://tinyurl.com/4cytrd5r)  
+4chan
+   - /pol/ (596,309 threads)  
+   - /r9k/ (206,005 threads)
+8kun
+   - /qresearch/ (33,886 threads)
+   - /pnd/ (6,759 threads)
+   - /midnightriders/ (874 threads)
    - /8tube/ (27 threads)
    - /aus/ (225 threads)
    - /canada/ (251 threads)
@@ -27,33 +38,7 @@ Currently a repository of language data from far-right extremist and conspiracy 
    - /philogeometric/ (6 threads)
    - /tech/ (14 threads)
    - /virginia/ (13 threads)
-
-[CODEC Data Magnet Link (04/2023)](https://tinyurl.com/3j58umsf)  
-   - /pol/ (72,563 threads)  
-   - /r9k/ (24,762 threads)
-   - /qresearch/ (207 threads)
-   - /pnd/ (189 threads)
-   - /midnightriders/ (12 threads)
-
-[CODEC Data Magnet Link (03/2023)](https://tinyurl.com/zpwzmzvy)  
-   - /pol/ (82,058 threads)  
-   - /r9k/ (23,938 threads)
-   - /qresearch/ (199 threads)
-   - /pnd/ (117 threads)
-   - /midnightriders/ (14 threads)
-   
-[4Chan Data Magnet Link (09/2022-02/2023)](https://tinyurl.com/yxr8vzpv)  
-   - /pol/ (368,760 threads)  
-   - /r9k/ (131,871 threads) 
      
-[8Kun Data Magnet Link (Complete As Of 02/28/2023)](https://tinyurl.com/2te7uf7e)   
-   - /qresearch/ (30,301 threads)  
-   - /pnd/ (6,302 threads)  
-   - /qrb/ (150 threads)  
-   - /midnightriders/ (838 threads)  
-   - /freedomzine/ (109 threads)  
-   - /u/ (205 threads)  
-
 To download torrents, use an application like [qBittorrent](https://www.qbittorrent.org/download.php). 
 
 ## Notes on data format
