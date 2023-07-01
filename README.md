@@ -40,6 +40,10 @@ Currently a repository of language data from far-right extremist and conspiracy 
    - /philogeometric/ (6 threads)
    - /tech/ (14 threads)
    - /virginia/ (13 threads)
+
+Discord
+   - unicornriot (3,770 channels)
+   - ddosecrets (1,870 channels)
      
 To download torrents, use an application like [qBittorrent](https://www.qbittorrent.org/download.php). 
 
