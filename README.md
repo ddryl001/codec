@@ -3,15 +3,26 @@ Currently a repository of language data from far-right extremist and conspiracy 
 
 ## Latest Torrents
 
+
+[CODEC Data Magnet Link (07/2023)](https://tinyurl.com/m7ny8r2k)  
+4chan
+   - /pol/ (77,192 threads) 
+   - /r9k/ (25,822 threads)
+     
+8kun
+   - /qresearch/ (157 threads)
+   - /pnd/ (100 threads)
+   - /midnightriders/ (14 threads)
+
 [CODEC Data Magnet Link (06/2023)](https://tinyurl.com/3uvef95v)  
 4chan
    - /pol/ (79,573 threads)  
    - /r9k/ (23,910 threads)
      
 8kun
-   - /qresearch/ (157 threads)
-   - /pnd/ (100 threads)
-   - /midnightriders/ (14 threads)
+   - /qresearch/ (224 threads)
+   - /pnd/ (170 threads)
+   - /midnightriders/ (8 threads)
 
 [CODEC Data Magnet Link (09/2022-05/2023)](https://tinyurl.com/4cytrd5r)  
 4chan
