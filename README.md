@@ -1,81 +1,19 @@
 # CODEC: Corpus of Digital Extremism and Conspiracies
 Currently a repository of language data from far-right extremist and conspiracy communities. All data is freely available for use by researchers and academics. New data will be uploaded monthly.
 
-## Latest Torrents
+## Latest Files
 
-[CODEC Data Magnet Link (10/2023-11/2023)](https://tinyurl.com/h3kavskd)  
-4chan
-   - /pol/ (174,542 threads) 
-   - /r9k/ (44,933 threads)
-     
-8kun
-   - /qresearch/ (400 threads)
-   - /pnd/ (84 threads)
-   - /midnightriders/ (35 threads)
+[CODEC Data /pol/ 4chan (9/2022-11/2023)](https://archive.org/details/codec-4chan-pol-sep-2022-nov-2023)  
 
-[CODEC Data Magnet Link (08/2023-09/2023)](https://tinyurl.com/yt6mk7uk)  
-4chan
-   - /pol/ (146,989 threads) 
-   - /r9k/ (48,791 threads)
-     
-8kun
-   - /qresearch/ (487 threads)
-   - /pnd/ (282 threads)
-   - /midnightriders/ (25 threads)
 
-[CODEC Data Magnet Link (07/2023)](https://tinyurl.com/m7ny8r2k)  
-4chan
-   - /pol/ (77,192 threads) 
-   - /r9k/ (25,822 threads)
-     
-8kun
-   - /qresearch/ (157 threads)
-   - /pnd/ (100 threads)
-   - /midnightriders/ (14 threads)
+[CODEC Data /r9k/ 4chan (09/2022-11/2023)](https://archive.org/details/codec-4chan-r-9k-sep-2022-nov-2023)  
 
-[CODEC Data Magnet Link (06/2023)](https://tinyurl.com/3uvef95v)  
-4chan
-   - /pol/ (79,573 threads)  
-   - /r9k/ (23,910 threads)
-     
-8kun
-   - /qresearch/ (224 threads)
-   - /pnd/ (170 threads)
-   - /midnightriders/ (8 threads)
 
-[CODEC Data Magnet Link (09/2022-05/2023)](https://tinyurl.com/4cytrd5r)  
-4chan
-   - /pol/ (596,309 threads)  
-   - /r9k/ (206,005 threads)
-     
-8kun
-   - /qresearch/ (33,886 threads)
-   - /pnd/ (6,759 threads)
-   - /midnightriders/ (874 threads)
-   - /8tube/ (27 threads)
-   - /aus/ (225 threads)
-   - /canada/ (251 threads)
-   - /christian/ (375 threads)
-   - /cryptobtc/ (68 threads)
-   - /dao101/ (19 threads)
-   - /doomer/ (300 threads)
-   - /fringe/ (370 threads)
-   - /hqa/ (61 threads)
-   - /k/ (224 threads)
-   - /luddite/ (8 threads)
-   - /monarchy/ (232 threads)
-   - /newbrit/ (340 threads)
-   - /newsplus/ (89 threads)
-   - /nightowlnews/ (40 threads)
-   - /philogeometric/ (6 threads)
-   - /tech/ (14 threads)
-   - /virginia/ (13 threads)
+[CODEC Data 8kun (9/2022-11/2023)](https://archive.org/details/codec-8kun-sep-2022-nov-2023)  
 
-Discord
-   - unicornriot (3,770 channels)
-   - ddosecrets (1,870 channels)
-     
-To download torrents, use an application like [qBittorrent](https://www.qbittorrent.org/download.php). 
+
+[CODEC Data Discord Channels from Unicorn Riot and DDOSecrets](https://archive.org/details/codec-8kun-sep-2022-nov-2023)  
+
 
 ## Notes on data format
 
