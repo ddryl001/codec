@@ -3,6 +3,9 @@ Currently a repository of language data from far-right extremist and conspiracy 
 
 ## Latest Files
 
+[CODEC Data /pol/, /r9k/, /tv/ 4chan (1/2024-4/2024)](https://archive.org/details/codec-4chan-jan-2024-apr-2024)  
+
+
 [CODEC Data /pol/ 4chan (9/2022-11/2023)](https://archive.org/details/codec-4chan-pol-sep-2022-nov-2023)  
 
 
