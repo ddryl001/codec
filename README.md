@@ -17,6 +17,8 @@ Currently a repository of language data from far-right extremist and conspiracy 
 
 [CODEC Data Discord Channels from Unicorn Riot and DDOSecrets](https://archive.org/details/codec-8kun-sep-2022-nov-2023)  
 
+[CODEC Incel Data](https://archive.org/details/incel-data)
+
 
 ## Notes on data format
 
